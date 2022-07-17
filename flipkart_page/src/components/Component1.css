@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    width: 100%;
+    display: flex;
+    background-color: #2874f0;
+    color: #f0f0f0;
+    height: 55px;
+    font-family: Roboto,Arial,sans-serif;
+}
+.space1{
+    width: 12%;
+}
+.Materials{
+    width:100%;
+    display: flex;
+}
+.Flipkart{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.Flipkart a{
+    text-decoration:none;
+    font-style:italic;
+    font-size:11px;
+    color:white;
+}
+.Flipkart a:hover{
+    text-decoration: underline;
+}
+.Form{
+    margin-top: 10px;
+    height:36px;
+    display: flex;
+    justify-content:center;
+    width:100%;
+}
+.searchTxt{
+    width:100%;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-style: none;
+    padding-left: 5%;
+    outline: none;
+}
+.searchBtn{
+    border-style:none;
+    height:36px;
+    background-color:white;
+    padding-right:5%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.Login{
+    width:100%;
+    margin-top: 12px;
+    height:36px;
+}
+.loginBtn{
+    width:100%;
+    color: #2874f0;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    border: 1px solid #dbdbdb;
+    font-size: 15px;
+}
+.Seller{
+    margin-top: 15%;
+}
+.sell:hover{
+    color:white;
+}
+.sell{
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+}
+.More{
+    margin-top: 35%;
+}
+.more:hover{
+    color:white;
+}
+.more{
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    background:none;
+    border:none;
+}
+.more select{
+    background: none;
+    border: none;
+    color: white;
+    outline:none;
+    height:35px;
+    width:20px;
+}
+.Cart{
+    margin-top:35%;
+}
+.space{
+    width:2%;
+}
+.L,.L1{
+    display: flex;
+    align-items: center;
+    padding: 1px 7px;
+}
+.LoginMaterial>.L:hover{
+    background-color: #f8f8f8;
+}
+.L{
+    cursor:pointer;
+}
+.L1{
+    margin-top:8%;
+}
+.LoginMaterial>hr{
+    width:110%;
+    margin-top: 1%;
+    margin-left: -5%;
+}

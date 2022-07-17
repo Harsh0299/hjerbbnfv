@@ -1,0 +1,26 @@
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next{
+    z-index:1;
+    height:104px;
+    width: 47px;
+    background: white;
+    cursor: context-menu;
+}
+.slick-next::before,.slick-prev::before{
+    display: none;
+}
+.slick-arrow.slick-prev{
+    left:0;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.slick-arrow.slick-next{
+    right:0;    
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.slick-arrow.slick-prev:hover,
+.slick-arrow.slick-next:hover{
+    background-color: white;
+    
+}

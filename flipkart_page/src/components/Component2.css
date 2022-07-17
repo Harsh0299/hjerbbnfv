@@ -1,0 +1,32 @@
+.menu{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto,Arial,sans-serif;
+}
+.colFlex{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    font-size: .85rem;
+    width: 8%;
+    color:black;
+}
+.colFlex:hover{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(0, 132, 240);
+}
+.colFlex img{
+    height: 64px;
+}
+.colFlex div{
+    padding: 2%;
+}
+.items img{
+    padding-top: 1%;
+    height: 8px;
+    width: 8px;
+}
